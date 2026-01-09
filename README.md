@@ -106,27 +106,58 @@
   
   <table align="center">
     <tr>
-      <td align="center">
-        <h3>🦋 KATABUMP</h3>
-        <a href="https://katabump.com/">
-          <img src="https://img.shields.io/badge/🚀_DEPLOY_ON_KATAPULT-FF6B35?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=000000" width="220"/>
+      <td align="center" style="vertical-align: top; padding: 20px;">
+        <!-- HEROKU SECTION -->
+        <h3 style="color: #FF00FF;">🦅 HEROKU</h3>
+        <p style="color: #CCCCCC;">Deploy your WhatsApp bot using Heroku's Git-based workflow. A popular PaaS platform that supports Node.js, Python, and many other languages.</p>
+        
+        <!-- HEROKU BADGES/STEPS -->
+        <div style="background: #000000; padding: 15px; border-radius: 10px; border: 1px solid #6765D1; margin: 10px 0;">
+          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">🔧 <b>Pre-requisites:</b> Install Git & Heroku CLI</p>
+          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">🔄 <b>Method:</b> Push code via Git to your Heroku remote</p>
+          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">📁 <b>Key File:</b> Add a <code>Procfile</code> to declare your web process</p>
+        </div>
+        
+        <a href="https://heroku.com/deploy?template=https://github.com/QadeerXTech/QADEER-XD">
+          <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" style="width: 220px;"/>
         </a>
+        <p style="color: #AAAAAA; font-size: 0.9em; margin-top: 5px;">One-click deploy with Heroku Button</p>
       </td>
-      <td align="center">
-        <h3>🦅 PTERODACTYL_PANELS</h3>
-        <img src="https://img.shields.io/badge/🖥️_PTERODACTYL_PANEL-00A8E1?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=000000" width="220"/>
+      
+      <td align="center" style="vertical-align: top; padding: 20px;">
+        <!-- RENDER SECTION -->
+        <h3 style="color: #00FF00;">🔗 RENDER</h3>
+        <p style="color: #CCCCCC;">A modern cloud platform to run your apps. Many developers migrate from Heroku to Render for cost efficiency and built-in features.</p>
+        
+        <!-- RENDER BADGES/STEPS -->
+        <div style="background: #000000; padding: 15px; border-radius: 10px; border: 1px solid #00FF00; margin: 10px 0;">
+          <p style="text-align: left; color: #00FF00; margin: 5px 0;">⚙️ <b>Mapping:</b> Heroku's <code>web</code> dyno → Render <i>Web Service</i></p>
+          <p style="text-align: left; color: #00FF00; margin: 5px 0;">🔑 <b>Setup:</b> Connect GitHub repo, set Build & Start Command</p>
+          <p style="text-align: left; color: #00FF00; margin: 5px 0;">🌐 <b>Benefit:</b> Free tier available with automatic HTTPS</p>
+        </div>
+        
+        <a href="https://render.com/deploy">
+          <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" style="width: 220px;"/>
+        </a>
+        <p style="color: #AAAAAA; font-size: 0.9em; margin-top: 5px;">Manual setup via Render Dashboard</p>
       </td>
     </tr>
+  </table>
+  
+  <!-- OTHER OPTIONS IN A SEPARATE ROW -->
+  <table align="center" style="margin-top: 30px;">
     <tr>
-      <td align="center">
-        <h3>📱 TERMUX</h3>
-        <img src="https://img.shields.io/badge/📱_TERMUX_ANDROID-00B894?style=for-the-badge&logo=android&logoColor=white&labelColor=000000" width="220"/>
+      <td align="center" style="padding: 0 15px;">
+        <h4>📱 TERMUX</h4>
+        <img src="https://img.shields.io/badge/📱_TERMUX_ANDROID-00B894?style=for-the-badge&logo=android&logoColor=white&labelColor=000000" width="180"/>
       </td>
-      <td align="center">
-        <h3>🔗 HEROKU / RENDER</h3>
-        <a href="https://render.com/">
-          <img src="https://img.shields.io/badge/☁️_DEPLOY_ON_RENDER/HEROKU-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000" width="220"/>
-        </a>
+      <td align="center" style="padding: 0 15px;">
+        <h4>🦋 KATABUMP</h4>
+        <img src="https://img.shields.io/badge/🚀_DEPLOY_ON_KATAPULT-FF6B35?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=000000" width="180"/>
+      </td>
+      <td align="center" style="padding: 0 15px;">
+        <h4>🖥️ PTERODACTYL</h4>
+        <img src="https://img.shields.io/badge/🖥️_PTERODACTYL_PANEL-00A8E1?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=000000" width="180"/>
       </td>
     </tr>
   </table>
@@ -177,6 +208,6 @@
   # 2. Install Dependencies  
   npm install
 
-  # 3. Add creds.json to session folder
+  # 3. Add Session to .env
   # 4. Start Bot
   npm start
